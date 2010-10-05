@@ -1,4 +1,7 @@
 Beerminder::Application.routes.draw do
+  get "drank_beers/new"
+  get "drank_beers/create"
+  get "drank_beers/destroy"
   get "home/index"
 
   resource :user_session
