@@ -2,6 +2,7 @@ Beerminder::Application.routes.draw do
   get "home/index"
 
   resource :user_session
+  resource :drank_beer
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
